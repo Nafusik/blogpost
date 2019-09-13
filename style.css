@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial;
+    font-size: 18px; 
+}
+h1, h2 {
+    color: #011a01;
+
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text {
+    font-size: 22px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#logo {
+    font-size: 22px;
+}
+
+.container {
+    width: 1140px;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    better way of doing this below
+    */
+    margin: 20px, auto, 0, auto;
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.other-post {
+    width: 25%;
+    float: left;
+}
+.other {
+    margin-bottom: 40px;
+}
+
+.author-box {
+    padding-top: 20px;
+    border-top: 1px solid #7e7b7b;
+}
+.author-box img {
+    height: 20%;
+    width: 20%;
+    /*border-radius: 50%;*/
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.blog-post a {
+    margin-bottom: 30px;
+}
+
+.date {
+    position: absolute;
+}
